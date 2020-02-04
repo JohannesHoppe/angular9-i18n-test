@@ -10,6 +10,10 @@ if (environment.production) {
   enableProdMode();
 }
 
+
+// loadTranslations({
+//   '1611893922927246762': 'Translated!'
+// });
 // platformBrowserDynamic().bootstrapModule(AppModule)
 //   .catch(err => console.error(err));
 
@@ -23,7 +27,3 @@ getTranslations(messages).then(
       .catch(err => console.error(err));
   }
 );
-
-// loadTranslations({
-//   '6496718414953876252': 'TEST TEST TEST'
-// });
