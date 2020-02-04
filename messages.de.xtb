@@ -16,4 +16,5 @@
 ]>
 <translationbundle lang="de">
   <translation id="Welcome">Willkommen</translation>
+  <translation id="Headline:Test" desc="Test">Test!</translation>
 </translationbundle>

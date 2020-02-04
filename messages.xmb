@@ -21,5 +21,6 @@
 <!ELEMENT ex (#PCDATA)>
 ]>
 <messagebundle>
-  <msg id="Welcome"><source>src/app/app.component.html:305</source>Welcome</msg>
+  <msg id="Welcome" desc="Test"><source>src/app/app.component.html:305</source><source>src/app/modules/main/main.component.html:1</source>Welcome</msg>
+  <msg id="Headline:Test" desc="Test"><source>src/app/modules/main/dashboard/dashboard-page/dashboard.component.html:9</source>Test Test</msg>
 </messagebundle>

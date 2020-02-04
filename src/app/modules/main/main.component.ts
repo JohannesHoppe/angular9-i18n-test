@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent implements OnInit {
 
   ngOnInit() {
-
+    const test = $localize`Test@@Welcome`;
+    console.log(test);
   }
 }

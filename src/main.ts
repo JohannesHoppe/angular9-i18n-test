@@ -1,10 +1,10 @@
 import { enableProdMode } from '@angular/core';
-import { loadTranslations } from '@angular/localize';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { getTranslations, ParsedTranslationBundle } from '@locl/core';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import { loadTranslations } from '@angular/localize';
 
 if (environment.production) {
   enableProdMode();
@@ -23,3 +23,7 @@ getTranslations(messages).then(
       .catch(err => console.error(err));
   }
 );
+
+// loadTranslations({
+//   '6496718414953876252': 'TEST TEST TEST'
+// });

@@ -1,6 +1,7 @@
 {
   "locale": "de",
   "translations": {
-    "Welcome": "Willkommen"
+    "Welcome": "Willkommen",
+    "Headline:Test": "Test!"
   }
 }
