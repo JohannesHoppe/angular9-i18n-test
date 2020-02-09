@@ -10,20 +10,20 @@ if (environment.production) {
   enableProdMode();
 }
 
+loadTranslations({
+  HelloWorld: 'Hallo Welt!!'
+});
 
-// loadTranslations({
-//   '1611893922927246762': 'Translated!'
-// });
-// platformBrowserDynamic().bootstrapModule(AppModule)
-//   .catch(err => console.error(err));
+platformBrowserDynamic().bootstrapModule(AppModule)
+  .catch(err => console.error(err));
 
-const messages = '/assets/i18n/messages.de.json';
+// const messages = '/assets/i18n/messages.de.json';
 
-getTranslations(messages).then(
-  (data: ParsedTranslationBundle) => {
-    loadTranslations(data.translations);
-    platformBrowserDynamic()
-      .bootstrapModule(AppModule)
-      .catch(err => console.error(err));
-  }
-);
+// getTranslations(messages).then(
+//   (data: ParsedTranslationBundle) => {
+//     loadTranslations(data.translations);
+//     platformBrowserDynamic()
+//       .bootstrapModule(AppModule)
+//       .catch(err => console.error(err));
+//   }
+// );

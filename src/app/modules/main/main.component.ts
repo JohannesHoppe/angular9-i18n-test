@@ -8,6 +8,7 @@ export class MainComponent implements OnInit {
 
   ngOnInit() {
     const test = $localize`Test@@Welcome`;
-    console.log(test);
+    const test2 = $localize`:@@HelloWorld:Hello World!!`;
+    console.log(test2);
   }
 }
